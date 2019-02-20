@@ -6,20 +6,10 @@
     align-content: center;
 }
 
-.carousel-inner {
-    max-height: 100%;
-    max-width: 100%;
-}
-
 .card-header {
     padding-bottom: 0;
 }
 
-.scale > img {
-    max-height: 400px;
-    min-height: 400px;
-    object-fit: contain;
-}
 
 .blue_tile {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+99 */
@@ -67,6 +57,14 @@
 .over:hover {
     background: rgba(0, 0, 0, 0.3);
     color: white;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+.carousel-item>img{
+    margin-top: auto;
 }
 
 .over > div {
