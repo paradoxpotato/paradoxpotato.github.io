@@ -99,6 +99,26 @@ li.media {
     border-bottom: 1px solid lightgrey;
 }
 
+li{
+    list-style: none;
+}
+ul{
+    padding-left: 0;
+}
+
+li>ul>li{
+    margin-left: 15px;
+}
+
+.sidebar-content>ul>li {
+    background: none;
+    border: 1px lightgrey solid;
+}
+
+.custom_l_item:hover{
+    background: lightblue;
+}
+
 h1 {
     font-size: 1.8vw;
     text-align: center;
