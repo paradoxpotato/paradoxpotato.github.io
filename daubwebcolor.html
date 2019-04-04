@@ -75,7 +75,7 @@
                    value="rgb(255, 128, 0)"/></div>
     </div>
     <div class="row">
-        <div class="col-12"><label for="color_W"> Color W</label>
+        <div class="col-12"><label for="color_w"> Color W</label>
             <input id="color_w" type="text" class="form-control color_picker" value="rgb(255, 128, 0)"/></div>
     </div>
 
@@ -83,23 +83,26 @@
 </div>
 
 <script>
-    $('#color_grid').colorpicker();
-    $('#color_d').colorpicker();
-    $('#color_w').colorpicker();
+    $(function () {
+            $('#color_grid').colorpicker();
+            $('#color_d').colorpicker();
+            $('#color_w').colorpicker();
 
 
-    // Example using an event, to change the color of the .jumbotron background:
-    $('#color_grid').on('colorpickerChange', function (event) {
-        $('.cls-1').css('fill', event.color.toString());
-    });
+            // Example using an event, to change the color of the .jumbotron background:
+            $('#color_grid').on('colorpickerChange', function (event) {
+                $('.cls-1').css('fill', event.color.toString());
+            });
 
-    $('#color_d').on('colorpickerChange', function (event) {
-        $('.cls-2').css('fill', event.color.toString());
-    });
+            $('#color_d').on('colorpickerChange', function (event) {
+                $('.cls-3').css('fill', event.color.toString());
+            });
 
-    $('#color_w').on('colorpickerChange', function (event) {
-        $('.cls-3').css('fill', event.color.toString());
-    });
+            $('#color_w').on('colorpickerChange', function (event) {
+                $('.cls-2').css('fill', event.color.toString());
+            })
+        }
+    );
 </script>
 </body>
 </html>
