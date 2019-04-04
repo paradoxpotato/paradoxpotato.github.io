@@ -63,10 +63,23 @@
         </svg>
     </div>
     <div class="row">
-        <input id="color_grid" type="text" class="form-control color_picker" value="rgb(255, 128, 0)" />
-        <input id="color_d" type="text" class="form-control color_picker" value="rgb(255, 128, 0)" />
-        <input id="color_w" type="text" class="form-control color_picker" value="rgb(255, 128, 0)" />
+        <div class="col-12">
+            <label for="color_grid"> Color Grid </label>
+            <input id="color_grid" type="text" class="form-control color_picker" value="rgb(255, 128, 0)"/>
+        </div>
     </div>
+    <div class="row">
+        <div class="col-12">
+            <label for="color_d"> Color D</label>
+            <input id="color_d" type="text" class="form-control color_picker"
+                   value="rgb(255, 128, 0)"/></div>
+    </div>
+    <div class="row">
+        <div class="col-12"><label for="color_W"> Color W</label>
+            <input id="color_w" type="text" class="form-control color_picker" value="rgb(255, 128, 0)"/></div>
+    </div>
+
+</div>
 </div>
 
 <script>
@@ -76,15 +89,15 @@
 
 
     // Example using an event, to change the color of the .jumbotron background:
-    $('#color_grid').on('colorpickerChange', function(event) {
+    $('#color_grid').on('colorpickerChange', function (event) {
         $('.cls-1').css('fill', event.color.toString());
     });
 
-    $('#color_d').on('colorpickerChange', function(event) {
+    $('#color_d').on('colorpickerChange', function (event) {
         $('.cls-2').css('fill', event.color.toString());
     });
 
-    $('#color_w').on('colorpickerChange', function(event) {
+    $('#color_w').on('colorpickerChange', function (event) {
         $('.cls-3').css('fill', event.color.toString());
     });
 </script>
