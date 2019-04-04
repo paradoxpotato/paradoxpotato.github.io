@@ -141,3 +141,23 @@ h1 {
     height: 200px;
     left: 0;
 }
+
+.caption{
+    list-style: initial;
+}
+
+.sponsor-tile{
+    background: #a80023;
+    height: 120px;
+    margin: 0 0 0%;
+    color: white;
+    font-size: 2em;
+    animation: blink-animation 0.4s steps(5, start) infinite alternate-reverse;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        background: orange;
+    }
+}
