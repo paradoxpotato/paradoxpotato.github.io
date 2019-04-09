@@ -65,3 +65,25 @@ li.media {
     margin-bottom: 10px;
     border-bottom: 1px solid lightgrey;
 }
+
+h1.capca_head {
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+
+.color_camca>a{
+    color: #005a8e !important;
+    font-weight: bold;
+}
+
+.color_gsg>a{
+    color: #ffd041 !important;
+    font-weight: bold;
+}
+
+.color_capca>a{
+    color: #1a995a !important;
+    font-weight: bold;
+}
