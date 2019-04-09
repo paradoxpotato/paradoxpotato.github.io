@@ -42,3 +42,18 @@
 #capca_tile_sponsor{
     background-color: #dc7676;
 }
+
+.carousel-caption{
+    background: rgba(155,0,0,0.9);
+
+    color: white;
+    width: 600px;
+    height: 200px;
+    left: 0;
+}
+
+li.media {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
