@@ -1,0 +1,44 @@
+#col3{
+    margin-right: 0;
+}
+
+#carouselExampleIndicators{
+    max-height: 400px;
+}
+
+.carousel-inner{
+    max-height: 100%;
+}
+
+.carousel-item{
+    max-height: 400px;
+}
+
+.capca_tile{
+    height: 90px;
+}
+
+.container-fluid{
+
+}
+
+.text_content{
+    justify-content: center;
+    text-align: center;
+}
+
+#capca_tile_camerata{
+    background-color: #318bcc;
+}
+
+#capca_tile_capella{
+    background-color: #C6E1B4;
+}
+
+#capca_tile_gsg {
+    background-color: #ffd041;
+}
+
+#capca_tile_sponsor{
+    background-color: #dc7676;
+}
