@@ -28,11 +28,19 @@
 }
 
 #capca_tile_camerata{
-    background-color: #318bcc;
+    background-color: #005a8e;
 }
 
 #capca_tile_capella{
-    background-color: #C6E1B4;
+    background-color: #1a995a;
+}
+
+.text_content.light h4{
+    color: white;
+}
+
+.text_content.light h3{
+    color: white;
 }
 
 #capca_tile_gsg {
